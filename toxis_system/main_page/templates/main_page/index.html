@@ -1,0 +1,224 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TOXIS</title>
+
+	<link rel="shortcut icon"  href="{% static 'ico/icon.ico' %}" type="image/x-icon">
+
+	<link type="text/css" href="{% static 'main_page/css/main.css' %}" rel="stylesheet">
+	<link type="text/css" href="{% static 'css/navbar.css' %}" rel="stylesheet">
+	<link type="text/css" href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<a href="">
+			<div class="logo_header">
+				<img src="{% static 'logo/logo_head.svg' %}" alt="TOXIS">
+			</div>
+		</a>
+		<nav class="navigation">
+			<a href="worms/">Network worms</a>
+			<a href="viruses.html">Classic viruses</a>
+			<a href="wares.html">Spyware & ransomware</a>
+			<a href="bootnets.html">Botnets & rootkits</a>
+		</nav>
+	</header>
+
+	<img src="{% static 'main_page/img/smile.svg' %}" class="smile">
+
+	<section class="main_page">
+		<!--<div class="main_page__gradient"></div> -->
+		<div class="main_page__content">
+			<h3>is your system<br>secured?</h3>
+			<p>/Many people think that computer viruses have nothing to<br> do with real ones. This is a big misconception. Here you<br> can see it/.dll</p>
+			<div class="form">
+				<form action="">
+		  			<input type="search" placeholder="Search...">
+		 			<button>
+		 				<img src="{% static 'img/everyone/Search_icon.png' %}" alt="">
+		 			</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section class="network_worms">
+		<div class="network_worms__info">
+			<div class="network_worms__infoFlex">
+				<div class="network_worms__item">
+					<img src="{% static 'main_page/img/networms_one.png' %}" alt="">
+					<section>
+						<h3>TRITON</h3>
+						<p>The TRITON malware, discovered in 2017, targeted industrial security systems. In particular, it pursued the instrumental safety system (SIS)</p>
+					</section>
+					<img src="{% static 'img/everyone/angle-right.png' %}" alt="">
+				</div>
+
+				<div class="network_worms__item">
+					<img src="{% static 'main_page/img/networms_two.png' %}" alt="">
+					<section>
+						<h3>Havex</h3>
+						<p>it is a fairly well-known remote access trojan (Remote Access Trojan –RAT), first discovered in 2013</p>
+					</section>
+					<img src="{% static 'img/everyone/angle-right.png' %}" alt="">
+				</div>
+
+				<div class="network_worms__item">
+					<img src="{% static 'main_page/img/networms_three.png' %}" alt="">
+					<section>
+						<h3>Stuxnet</h3>
+						<p>In June 2010, a Stuxnet cyber attack managed to destroy centrifuges at an Iranian nuclear power plant.</p>
+					</section>
+					<img src="{% static 'img/everyone/angle-right.png' %}" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="network_worms__backimg">
+			<div class="network_worms__backimgFlex">
+				<section>
+					<img src="{% static 'main_page/img/networms_main.png' %}" alt="">
+					<h3>Network<br>worms</h3>
+				</section>
+				<p>A network worm is a type of malicious program that independently spreads through local and global (Internet) computer networks. The main weapon is the rapid spread in the system</p>
+				<button class="go_to_networms">
+					<a href="worms.html">Go.exe</a>
+					<!-- <img src="img/main_page/smile.svg"> -->
+				</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="viruses">
+		<div class="container">
+			<h3 class="viruses_title">Classic viruses</h3>
+			<p class="viruses_subtitle">The most classic there is. They have no specific purpose, no specific task, most often they were created just for fun. They only know how to share and break your computer</p>
+			<div class="viruses_flex">
+				<div class="viruses_flex__item">
+					<section>
+						<img src="{% static 'main_page/img/viruses_one.png' %}" alt="" class="viruses_flex__itemMainImage">
+					</section>					
+					<h3>Code Red</h3>
+					<p>The virus was launched<br> in 2001 and infected<br> 360,000 machines,<br> creating a botnet to<br> attack the White House<br> website.</p>
+					<img src="{% static 'img/everyone/angle-right.png' %}" alt="" class="viruses_flex__itemLinkImage">
+				</div>
+
+				<div class="viruses_flex__item">
+					<section>
+						<img src="{% static 'main_page/img/viruses_two.png' %}" alt="" class="viruses_flex__itemMainImage">
+					</section>
+					<h3>CIH</h3>
+					<p>The famous Chernobyl<br> virus, which was<br> written by Taiwanese<br> student Chen Yinghao<br> specifically for<br> Windows 9598 operating<br> systems.</p>
+					<img src="{% static 'img/everyone/angle-right.png' %}" alt="" class="viruses_flex__itemLinkImage">
+				</div>
+
+				<div class="viruses_flex__item">
+					<section>
+						<img src="{% static 'main_page/img/viruses_three.png' %}" alt="" class="viruses_flex__itemMainImage">
+					</section>
+					<h3>ILOVEYOU</h3>
+					<p>When an attachment was<br> opened, the virus sent a<br> copy of itself to all<br> contacts in the Windows<br> address book, as well as to<br> the address specified as<br> the sender's address.</p>
+					<img src="{% static 'img/everyone/angle-right.png' %}" alt="" class="viruses_flex__itemLinkImage">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="spyware">
+		<div class="spyware__backimg">
+			<div class="spyware__backimgFlex">
+				<img src="{% static 'main_page/img/networms_main.png' %}" alt="">
+				<section>
+					<h3>Spyware & <br>ransomware</h3>
+					<p>Do you like to download torrent files? Do you change free proxy and vpn like gloves in a cold winter? Do you use free antivirus software and public Wi-Fi? Then we may have some bad news for you, as you are probably under scrutiny.</p>
+					<button class="go_to_spyware">
+						<a href="wares.html">Go.exe</a>
+					</button>
+				</section>
+			</div>
+		</div>
+
+		<div class="spyware__info">
+			<div class="spyware__infoFlex">
+				<div class="spyware__item">
+					<img src="{% static 'main_page/img/spyware_one.png' %}" alt="">
+					<section>
+						<h3>Locky</h3>
+						<p>is a ransomware attack that was first carried out by Planet Organized Hackers in 2016. Over 160 file types have been encrypted with Locky.</p>
+					</section>
+					<img src="{% static 'img/everyone/angle-right.png' %}" alt="">
+				</div>
+
+				<div class="spyware__item">
+					<img src="{% static 'main_page/img/spyware_two.png' %}" alt="">
+					<section>
+						<h3>WannaCry</h3>
+						<p>is a ransomware attack that took place in more than 150 countries in 2017. It was designed to exploit a Windows security vulnerability created by the NSA and made public by the Shadow Brokers.</p>
+					</section>
+					<img src="{% static 'img/everyone/angle-right.png' %}" alt="">
+				</div>
+
+				<div class="spyware__item">
+					<img src="{% static 'main_page/img/spyware_three.png' %}" alt="">
+					<section>
+						<h3>Petya</h3>
+						<p>is a ransomware attack that first occurred in 2016 and then replicated as GoldenEye in 2017. Instead of encrypting individual files, this ransomware ransomware encrypted entire hard drives of victims.</p>
+					</section>
+					<img src="{% static 'img/everyone/angle-right.png' %}" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="botnets">
+		<div class="botnets_background_shadow_1"></div>
+		<div class="botnets_background_shadow_2"></div>
+		<div class="container">
+			<h3 class="viruses_title">botnets & rootkits</h3>
+			<p class="viruses_subtitle">You probably know that the Internet is a network of networks. But what you may not know is that your device may be part of a different, slightly specific network. You are also not aware of what your war machine can do without your knowledge when starting up or when idle in sleep mode.</p>
+
+			<div class="botnets_flex">
+				<div class="botnets_flex__item">
+					<h3>Necurs</h3>
+					<p>Necurs is distributed via drive-by downloads and can enter the system from any site</p>
+				</div>
+
+				<div class="botnets_flex__item">
+					<h3>Carna</h3>
+					<p>Was one of the largest botnets ever created, and its creation was a research project conducted by James Lyne and his team at Sophos Labs in 2013.</p>
+				</div>
+
+				<div class="botnets_flex__item">
+					<h3>Alureon</h3>
+					<p>It was created in 2008 and is still one of the most advanced and dangerous rootkits in the world of cybercrime.</p>
+				</div>
+			</div>
+
+			<div class="botnets_flex botnets_flex_margin">
+				<div class="botnets_flex__item">
+					<h3>Bredolab</h3>
+					<p>Was one of the most widespread botnets between 2009 and 2010. It was created by an unknown hacker from the Netherlands and used to send spam in bulk</p>
+				</div>
+
+				<div class="botnets_flex__item">
+					<h3>TDL</h3>
+					<p>TDL (TDL-4, TDL-3, TDL-2, TDL-1) is a family of botnets that have been created for use in cybercrime.</p>
+				</div>
+
+				<div class="botnets_flex__item">
+					<h3>ZeroAccess</h3>
+					<p>This botnet was active from 2011 to 2013. It was one of the largest and most active botnets of its time, and was also one of the most difficult to detect and eliminate.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<img src="{% static 'logo/logo_footer.png' %}" alt="">
+	</footer>
+</body>
+</html>

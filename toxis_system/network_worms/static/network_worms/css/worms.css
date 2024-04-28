@@ -1,0 +1,131 @@
+.main_page_image {
+	width: 100%;
+	height: 105vh;
+	background: 
+		#000
+		url("../img/background_nav.jpg")
+		no-repeat
+		center
+}
+
+/*.back_gradient {
+	width: 100%;
+	height: 105vh;
+	background: 
+		rgb(241,0,0) 
+		linear-gradient(164deg, rgba(241,0,0,1) 0%, rgba(119,7,7,1) 19%, rgba(47,1,1,1) 35%, rgba(0,0,0,1) 50%);
+}*/
+
+.container {
+	height: 100%;
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.text_head p {
+	font-family: "Special Elite";
+	color: #ffffff;
+	font-size: 40px;
+    position: relative;
+    top: 200px;
+}
+
+
+.worms_sample {
+	width: 100%;
+	max-height: 1700px;
+	background: #000;
+	padding-top: 30px;
+	position: relative;
+}
+
+.worms_sample h2 {
+	margin-bottom: 30px;
+	font-family: "Special Elite";
+	color: #ffffff;
+	font-size: 40px;
+	text-align: center;
+}
+
+.worms_sample_one {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.worms_sample_one__property {
+	width: 50.1%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.worms_sample_one__property h3 {
+	font-family: "Special Elite";
+	color: #ffffff;
+	font-size: 40px;
+	text-align: left;
+}
+
+.worms_sample_one__property p {
+	font-family: "Special Elite";
+	color: #ffffff;
+	font-size: 20px;
+	text-align: left;
+}
+
+.line {
+	height: 2px;
+	width: 100%;
+	max-width: 280px;
+	background-color: #fff;
+}
+
+/*.line_vertical_left {
+	height: 100vh;
+	width: 2px;
+	background-color: #fff;
+}
+
+.line_vertical_right {
+	height: 100px;
+	width: 2px;
+	background-color: #fff;
+}*/
+
+.worms_sample_two {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.worms_sample_two__property {
+	width: 50.1%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.worms_sample_two__property h3 {
+	font-family: "Special Elite";
+	color: #ffffff;
+	font-size: 40px;
+	text-align: right;
+}
+
+.worms_sample_two__property p {
+	font-family: "Special Elite";
+	color: #ffffff;
+	font-size: 20px;
+	text-align: right;
+}
+
+.center-line {
+  	width: 3px;
+  	height: 90%;
+  	background-color: #fff;
+  	position: absolute;
+  	top: 100px;
+  	left: 50%;
+  	transform: translateX(-50%);
+}

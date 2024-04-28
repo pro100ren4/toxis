@@ -1,0 +1,178 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Network worms</title>
+
+	<link rel="shortcut icon"  href="{% static 'ico/icon.ico' %}" type="image/x-icon">
+
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	<link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+	<link type="text/css" href="{% static 'network_worms/css/worms.css' %}" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'css/everyone_sample.css' %}">
+</head>
+<body>
+	<section class="main_page_image">
+		<div class="back_gradient">
+			<header class="header">
+				<a href="/">
+					<div class="logo_header">
+						<img src="{% static 'logo/logo_head.svg' %}" alt="TOXIS">
+					</div>
+				</a>
+				<nav class="navigation">
+					<a href="">Network worms</a>
+					<a href="viruses.html">Classic viruses</a>
+					<a href="wares.html">Spyware & ransomware</a>
+					<a href="bootnets.html">Botnets & rootkits</a>
+				</nav>
+			</header>
+			<div class="container">
+				<section class="text_head">
+					<p>Network worms are<br>
+					 infectious diseases<br> 
+					 for computer<br> 
+					networks.</p>
+				</section>
+			</div>
+		</div>
+	</section>
+
+	<section class="worms_sample">
+		<div class="container">
+			<div class="center-line"></div>
+			
+			<h2>Types of network worms</h2>
+
+			<div class="worms_sample_one">
+				<div class="worms_sample_one__property">
+					<article>
+						<h3>Mail worm</h3>
+						<p>This is a type of computer<br>
+						 worm that uses e mail to<br> spread. Imagine a little<br> creature hiding in your<br> email inbox, ready to attack<br> you and your friends.</p>
+					</article>
+					<hr class="line">
+				</div>
+			</div>
+
+			<div class="worms_sample_two">
+				<div class="worms_sample_two__property">
+					<hr class="line">
+					<article>
+						<h3>IM-Worm</h3>
+						<p>This is a type of malware that
+						 spreads through instant messages in chats or instant<br> messengers. These worms can<br> be embedded in files that a<br> user downloads from a chat or<br> messenger, or they can use<br> vulnerabilities in<br> messenger software to spread<br> automatically.</p>
+					</article>
+				</div>
+			</div>
+
+			<div class="worms_sample_one">
+				<div class="worms_sample_one__property">
+					<article>
+						<h3>P2P-Worm</h3>
+						<p>These are network worms that spread through P2P (peer-to-peer) networks. P2P networks are networks in which devices communicate with each other directly, without a centralized server.</p>
+					</article>
+					<hr class="line">
+				</div>
+			</div>
+
+			<div class="worms_sample_two">
+				<div class="worms_sample_two__property">
+					<hr class="line">
+					<article>
+						<h3>IRC-Worm</h3>
+						<p>IRC worms (Internet Relay Chat worms) are one of the most common types of network worms. They use IRC (Internet Relay Chat) to communicate with and control other infected computers.</p>
+					</article>
+				</div>
+			</div>
+
+			<div class="worms_sample_one">
+				<div class="worms_sample_one__property">
+					<article>
+						<h3>LAN-Worm</h3>
+						<p>These are network worms that spread through P2P (peer-to-peer) networks. P2P networks are networks in which devices communicate with each other directly, without a centralized server.</p>
+					</article>
+					<hr class="line">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="links_to_articles">
+		<div class="container">
+			<!-- <img src="img/network_worms/background_examples.png" alt="" class="articles_background_img"> -->
+			<div class="articles_block">
+
+				<div class="articles_block__title_and_search">
+					<h3>Articles</h3>
+					<form action="" class="search">
+						<button>
+							<img src="{% static 'img/everyone/Search_icon.png' %}" alt="">
+						</button>
+						<input type="seacrh" placeholder="Search...">
+					</form>
+				</div>
+
+				<div class="articles_block__example">
+					<span>Triton</span>
+					<img src="{% static 'img/everyone/angle-right.png' %}" alt="">
+				</div>
+
+				<div class="articles_block__example">
+					<span>Morris Worm</span>
+					<img src="{% static 'img/everyone/angle-right.png' %}" alt="">
+				</div>
+
+				<div class="articles_block__example">
+					<span>SQL Slammer</span>
+					<img src="{% static 'img/everyone/angle-right.png' %}" alt="">
+				</div>
+
+				<div class="articles_block__example">
+					<span>WannaCry</span>
+					<img src="{% static 'img/everyone/angle-right.png' %}" alt="">
+				</div>
+
+				<div class="articles_block__example">
+					<span>Stuxnet</span>
+					<img src="{% static 'img/everyone/angle-right.png' %}" alt="">
+				</div>
+
+				<div class="articles_block__slider">
+					<div class="slider_point">
+						<img src="{% static 'img/everyone/angle-right.png' %}" alt="" class="pointer_left">
+					</div>
+
+					<div class="slider_point">
+						<span>1</span>
+					</div>
+
+					<div class="slider_point">
+						<span>2</span>
+					</div>
+
+					<div class="slider_point">
+						<span>3</span>
+					</div>
+
+					<div class="slider_point">
+						<span>4</span>
+					</div>
+
+					<div class="slider_point">
+						<span>5</span>
+					</div>
+
+					<div class="slider_point">
+						<img src="{% static 'img/everyone/angle-right.png' %}" alt="" class="pointer_right">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
